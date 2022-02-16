@@ -1,0 +1,35 @@
+body {
+  background: hsl(217, 54%, 11%);
+  font-size: 11px;
+  text-align: center;
+}
+
+/*<!--<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>-->*/
+/*CLASSES E IDs*/
+
+.attribution {
+  color: white;
+}
+
+.dias {
+  color: hsl(215, 51%, 70%);
+}
+
+.hora {
+  color: hsl(178, 100%, 50%);
+}
+
+.nome {
+  color: white;
+}
+
+.subtitulo {
+  color: hsl(215, 51%, 70%);
+}
+
+.titulo {
+  color: white;
+}
