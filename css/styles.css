@@ -1,25 +1,60 @@
 body {
-  background: hsl(217, 54%, 11%);
+  background: #0C182B;
   font-size: 11px;
-  text-align: center;
+  padding: 20rem;
+  font-family: 'Outfit', sans-serif;
 }
 
-/*<!--<style>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
-</style>-->*/
-/*CLASSES E IDs*/
+hr {
+  border-color: #2E415A;
+}
 
+p {
+  font-size: 18px;
+}
+
+/*CLASSES E IDs*/
 .attribution {
-  color: white;
+  font-size: 11px;
+  text-align: center;
+  color: #3D51A2;
+}
+
+.avatar {
+  position: relative;
+  right: 0.5rem;
+  float: left;
+  max-width: 7%;
+  padding-bottom: 1rem;
+}
+
+.baixo {
+  position: relative;
+  left: 2rem;
+}
+
+.conteiner {
+  background-color: #14243D;
+  padding: 1.5rem;
+  border-radius: 3%;
+  margin-left: 8rem;
+  max-width: 50%;
 }
 
 .dias {
-  color: hsl(215, 51%, 70%);
+  color: #8BABD9;
+  float: right;
+  position: relative;
+  bottom: 3.6rem;
+}
+
+.imagem {
+  border-radius: 2%;
+  max-width: 95%;
 }
 
 .hora {
-  color: hsl(178, 100%, 50%);
+  color: #00FFF6;
 }
 
 .nome {
@@ -27,7 +62,7 @@ body {
 }
 
 .subtitulo {
-  color: hsl(215, 51%, 70%);
+  color: #8BABD9;
 }
 
 .titulo {
